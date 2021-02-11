@@ -1,7 +1,7 @@
 # HTML FORMS
 
 ## Purpose
-In this project we will practice working with html forms by rebuilding the signup page for Mint.com
+To practice working with html forms by rebuilding the signup page for Mint.com
 
 
 
