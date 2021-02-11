@@ -28,29 +28,32 @@
     <ul>
       <li class="form-h1">Create an Intuit account</li>
       <li class="form-h2">One account for everything Intuit, including Mint.
-        <span>Learn more</span>
+        <a href="#" class="learn-more">Learn more</a>
       </li>
       <li>
-        <label for="email">Email address</label>
-        <input type="email" id="email" name="email-address">
+        <label for="email">Email address</label><br>
+        <input class="input-box" type="email" id="email" name="email-address">
+      </li>
+      <li class="phone">
+        <label for="phone">Phone (recommended)</label><br>
+        <input class="input-box" type="number" id="phone" name="phone-number">
+        <span class="tiny-warning">Standard call, messaging or data rates may apply.</span>
+      </li>
+      <li class="password">
+        <label for="password">Password</label><br>
+        <input class="input-box" type="number" id="password" name="user-password">
+        
       </li>
       <li>
-        <label for="phone">Phone (recommended)</label>
-        <input type="number" id="phone" name="phone-number">
+        <button class="create-btn" type="submit"><img class="lock-icon" src="images/lock_white.png" alt="white lock icon"> Create Account</button>
       </li>
-      <li>
-        <label for="password">Password</label>
-        <input type="number" id="password" name="user-password">
-      </li>
-      <li>
-        <button type="submit">Create Account</button>
-      </li>
-      <li>
-        By clicking Create Account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.
-      </li>
-      <li>
-        invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-      </li>
+      <div class="terms">
+        <em>By clicking Create Account, you agree to our <br><a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.</em>
+      </div>
+      <div class="captcha-container">
+        <span class="captcha">invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</span>
+      </div>
+      </div>
     </ul>
   </form>
   <footer class="footer">
@@ -59,7 +62,7 @@
       <span>Privacy</span>
       <span>Security</span>
     </div>
-    <div class="terms-conditions">
+    <div class="copy-rights">
       @ 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</br>Terms and conditions, features, support, pricing, and service options subject to change without notice.
     </div>
     <div class="privacy-settings">Privacy Settings</div>
