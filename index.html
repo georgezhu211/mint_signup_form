@@ -7,23 +7,27 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div class="signin-box">
-    <div class="have-account">Already have an Intuit account?</div>
-    <div class="forgot-user">I forgot my User ID or Password</div>
-    <button class="signin-btn">Sign In</button>
-  </div>
+  <nav class="navigation">
+    <div class="signin-box">
+      <div class="have-account signin-item">Already have an Intuit account?</div>
+      <a href="#" class="forgot-user signin-item">I forgot my User ID or Password</a>
+      <button class="signin-btn signin-item"><img class="lock-icon" src="images/lock_white.png" alt="lock icon"> Sign In</button>
+    </div>
+  </nav>
   <header class="header">
-    <div class="intuit-logo">Intuit</div>
+    <div class="intuit-logo">
+
+    </div>
     <div class="mini-icons">
-      <span>mint</span>
-      <span>quickbooks</span>
-      <span>turbotax</span>
+      <img class="icons" src="images/mint.svg" alt="mint icon"><span>mint</span>
+      <img class="icons" src="images/quickbooks.svg" alt="quickbooks icon"><span>quickbooks</span>
+      <img class="icons" src="images/turbotax.svg" alt="turbotax icon"><span>turbotax</span>
     </div>
   </header>
   <form class="signup-form" action="#" method="post">
     <ul>
-      <li>Create an Intuit account</li>
-      <li>One account for everything Intuit, including Mint.
+      <li class="form-h1">Create an Intuit account</li>
+      <li class="form-h2">One account for everything Intuit, including Mint.
         <span>Learn more</span>
       </li>
       <li>
@@ -50,7 +54,11 @@
     </ul>
   </form>
   <footer class="footer">
-
+    <div class="footer-links">
+      <span>Legal</span>
+      <span>Privacy</span>
+      <span>Security</span>
+    </div>
     <div class="terms-conditions">
       @ 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</br>Terms and conditions, features, support, pricing, and service options subject to change without notice.
     </div>
