@@ -1,9 +1,15 @@
-# HTML FORMS
+# Mint Signup Form
 
-## Purpose
-In this project we will practice working with html forms by rebuilding the signup page for Mint.com
+mint.intuit.com signup form
 
+## Description
 
+Rebuild the mint sign up form using html and css
 
-## Acknowledgement
-[The Odin Project](https://theodinproject.com)
+## Preview
+
+![preview](preview.png)
+
+## Acknowledgment
+
+[The Odin Project](https://www.theodinproject.com/)
